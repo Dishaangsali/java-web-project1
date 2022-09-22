@@ -8,6 +8,12 @@
   <name>java-web-project Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <dependency> 
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId> 
+      <version>3.3.2</version> 
+      <type>maven-plugin</type>
+   </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
